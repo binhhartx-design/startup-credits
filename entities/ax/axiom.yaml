@@ -49,6 +49,7 @@ offers:
           waived_item: Axiom Cloud platform fee
       consideration:
         kind: variable
+        description: Usage beyond monthly allowances requires paying discounted compute rates.
     eligibility:
       rule:
         criterion_id: cri_01
@@ -59,7 +60,7 @@ offers:
       terms_authority_entity_id: ent_01m4zxs2zkrbzweq6c1b2mwvqz
       access_operator_entity_id: ent_01m4zxs2zkrbzweq6c1b2mwvqz
     access:
-      availability: restricted
+      availability: membership
       method: form
       url: https://axiom.co/axiom-for-startups
       instructions: Apply using the form on the Axiom for Startups program page.
