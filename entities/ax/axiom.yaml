@@ -10,8 +10,8 @@ entity:
       valid_from: 2026-10-15T00:00:00.000Z
   category: observability
 profile:
-  summary: Axiom provides a cloud data analytics and observability platform for ingesting, querying, and monitoring machine data at scale.
-  description: Axiom provides a cloud data platform for event data management, custom event streams, and system observability.
+  description: Axiom is a modern machine data platform that offers Axiom Cloud for data loading and query compute.
+  summary: Axiom is a modern machine data platform offering Axiom Cloud.
   links:
     site: https://axiom.co
 sources:
