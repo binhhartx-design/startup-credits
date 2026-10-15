@@ -10,8 +10,8 @@ entity:
       valid_from: 2026-10-15T00:00:00.000Z
   category: observability
 profile:
-  summary: Axiom provides a cloud data analytics and observability platform designed for high-throughput logging, event streaming, and monitoring.
-  description: Axiom provides a cloud data analytics and observability platform for ingesting, querying, and monitoring machine data at scale.
+  summary: Axiom provides a cloud data analytics and observability platform for ingesting, querying, and monitoring machine data at scale.
+  description: Axiom provides a cloud data platform for event data management, custom event streams, and system observability.
   links:
     site: https://axiom.co
 sources:
@@ -48,18 +48,18 @@ offers:
           description: Waiver of the $25 monthly Axiom Cloud platform fee for 12 months.
           waived_item: Axiom Cloud platform fee
       consideration:
-        kind: none
+        kind: variable
     eligibility:
       rule:
         criterion_id: cri_01
         kind: manual
         reason: not-machine-evaluable
-        statement: Company is between Seed and Series A, new to paid Axiom Cloud, and applying through a participating accelerator, investor, or startup community.
+        statement: Company is between Seed and Series A, new to paid Axiom Cloud, applying through a participating accelerator, investor or startup community, and has not received an Axiom startup benefit before.
     roles:
       terms_authority_entity_id: ent_01m4zxs2zkrbzweq6c1b2mwvqz
       access_operator_entity_id: ent_01m4zxs2zkrbzweq6c1b2mwvqz
     access:
-      availability: public
+      availability: restricted
       method: form
       url: https://axiom.co/axiom-for-startups
       instructions: Apply using the form on the Axiom for Startups program page.
