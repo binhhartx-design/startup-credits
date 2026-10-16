@@ -1,0 +1,80 @@
+{
+  "summary": "This evidence document compiles verified answers to active Reddit discussions regarding startup cloud and infrastructure credits using authoritative, dated records from the Sourcey open data registry (sourcey/startup-credits). Each entry links a live discussion thread with the corresponding dated entity YAML file, program details, offer slug, effective date, and primary first-party verification sources.",
+  "description": "This evidence document compiles verified answers to active Reddit discussions regarding startup cloud and infrastructure credits using authoritative, dated records from the Sourcey open data registry (sourcey/startup-credits). Each entry links a live discussion thread with the corresponding dated entity YAML file, program details, offer slug, effective date, and primary first-party verification sources.",
+  "notes": "Verified against Sourcey open registry git commits and first-party vendor documentation for AWS Activate, Axiom for Startups, and Cloudflare for Startups.",
+  "items": [
+    {
+      "id": "reddit-aws-activate-2026",
+      "thread_url": "https://www.reddit.com/r/aws/comments/1qvqv6w/the_actual_ways_to_get_aws_credits_right_now_feb/",
+      "thread_title": "The actual ways to get AWS credits right now (Feb 2026 updated)",
+      "subreddit": "r/aws",
+      "registry_entity": "AWS",
+      "registry_slug": "aws",
+      "offer_slug": "aws-activate-founders-credits",
+      "dated_fact": "Self-funded, pre-Series B startups founded within the last 10 years can apply for $1,000 in AWS credits, with selected participants eligible for up to $5,000, verified effective 2026-08-04 in the Sourcey open registry.",
+      "effective_from": "2026-08-04T08:07:04.112Z",
+      "registry_source_url": "https://github.com/sourcey/startup-credits/blob/main/entities/aw/aws.yaml",
+      "official_source_url": "https://aws.amazon.com/startups/credits/?lang=en-US",
+      "answer_markdown": "If you are bootstrapping or pre-Series B, check out the AWS Activate Founders tier directly from the open Sourcey registry (`entities/aw/aws.yaml`). As verified effective August 4, 2026: self-funded companies founded within the last 10 years qualify for $1,000 in AWS credits (with selected participants receiving up to $5,000), without requiring an institutional VC provider ID. For higher tiers (up to $200,000 in Portfolio credits), you need an official AWS Activate Provider Org ID from an affiliated accelerator or fund."
+    },
+    {
+      "id": "reddit-startups-perks-stack",
+      "thread_url": "https://www.reddit.com/r/startups/comments/1ntbue9/what_are_the_startup_credit_programs_you_used_i/",
+      "thread_title": "What are the startup credit programs you used in early stages?",
+      "subreddit": "r/startups",
+      "registry_entity": "Axiom",
+      "registry_slug": "axiom",
+      "offer_slug": "axiom-for-startups-credits",
+      "dated_fact": "Early-stage startups with under $5M in capital raised and founded within 5 years receive $5,000 in free Axiom cloud logging and observability credits valid for 12 months, verified effective 2026-10-15 in the Sourcey registry.",
+      "effective_from": "2026-10-15T00:00:00.000Z",
+      "registry_source_url": "https://github.com/sourcey/startup-credits/blob/main/entities/ax/axiom.yaml",
+      "official_source_url": "https://axiom.co/axiom-for-startups",
+      "answer_markdown": "A frequently overlooked infrastructure deal for early-stage builders is Axiom for Startups, verified in the Sourcey open registry (`entities/ax/axiom.yaml`) as of October 15, 2026. If your startup is under 5 years old and has raised less than $5M (including fully bootstrapped teams), you can claim $5,000 in free cloud logging and telemetry credits for 12 months. This completely covers application log ingestion and querying during early product iterations without running into expensive Datadog or CloudWatch bills."
+    },
+    {
+      "id": "reddit-dealhunt-cloudflare-startups",
+      "thread_url": "https://www.reddit.com/r/dealhunt/comments/1x239om/cloudflare_is_offering_startups_up_to_10000_in/",
+      "thread_title": "Cloudflare is offering startups up to $10,000 in infrastructure credits",
+      "subreddit": "r/dealhunt",
+      "registry_entity": "Cloudflare",
+      "registry_slug": "cloudflare",
+      "offer_slug": "cloudflare-for-startups-tier-3",
+      "dated_fact": "Bootstrapped or self-funded startups with under $1M raised receive $10,000 in Cloudflare credits valid for 1 year, verified effective 2026-07-27 in the Sourcey open registry.",
+      "effective_from": "2026-07-27T07:45:12.619Z",
+      "registry_source_url": "https://github.com/sourcey/startup-credits/blob/main/entities/cl/cloudflare.yaml",
+      "official_source_url": "https://www.cloudflare.com/startups/",
+      "answer_markdown": "For anyone wondering about the eligibility breakdown for Cloudflare's $10,000 deal: according to the Sourcey open data registry (`entities/cl/cloudflare.yaml`), this corresponds to Cloudflare for Startups - Tier 3 (offer slug `cloudflare-for-startups-tier-3`, effective since 2026-07-27). It is specifically targeted at bootstrapped or self-funded startups with under $1M raised. Key requirements: incorporated within the last 10 years, building a software product with a live website, and first-time applicant. Higher tiers provide $100,000 (Tier 2, <$5M raised) and $350,000 (Tier 1, $5M+ raised)."
+    }
+  ],
+  "evidence": [
+    {
+      "id": "reddit-aws-activate-2026",
+      "thread_url": "https://www.reddit.com/r/aws/comments/1qvqv6w/the_actual_ways_to_get_aws_credits_right_now_feb/",
+      "thread_title": "The actual ways to get AWS credits right now (Feb 2026 updated)",
+      "registry_entity": "AWS",
+      "offer_slug": "aws-activate-founders-credits",
+      "effective_from": "2026-08-04T08:07:04.112Z"
+    },
+    {
+      "id": "reddit-startups-perks-stack",
+      "thread_url": "https://www.reddit.com/r/startups/comments/1ntbue9/what_are_the_startup_credit_programs_you_used_i/",
+      "thread_title": "What are the startup credit programs you used in early stages?",
+      "registry_entity": "Axiom",
+      "offer_slug": "axiom-for-startups-credits",
+      "effective_from": "2026-10-15T00:00:00.000Z"
+    },
+    {
+      "id": "reddit-dealhunt-cloudflare-startups",
+      "thread_url": "https://www.reddit.com/r/dealhunt/comments/1x239om/cloudflare_is_offering_startups_up_to_10000_in/",
+      "thread_title": "Cloudflare is offering startups up to $10,000 in infrastructure credits",
+      "registry_entity": "Cloudflare",
+      "offer_slug": "cloudflare-for-startups-tier-3",
+      "effective_from": "2026-07-27T07:45:12.619Z"
+    }
+  ],
+  "threads": [
+    "https://www.reddit.com/r/aws/comments/1qvqv6w/the_actual_ways_to_get_aws_credits_right_now_feb/",
+    "https://www.reddit.com/r/startups/comments/1ntbue9/what_are_the_startup_credit_programs_you_used_i/",
+    "https://www.reddit.com/r/dealhunt/comments/1x239om/cloudflare_is_offering_startups_up_to_10000_in/"
+  ]
+}
