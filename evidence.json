@@ -1,7 +1,7 @@
 {
-  "summary": "This evidence document compiles verified answers to active Reddit discussions regarding startup cloud and infrastructure credits using authoritative, dated records from the Sourcey open data registry (sourcey/startup-credits). Each entry links a live discussion thread with the corresponding dated entity YAML file, program details, offer slug, effective date, and primary first-party verification sources.",
-  "description": "This evidence document compiles verified answers to active Reddit discussions regarding startup cloud and infrastructure credits using authoritative, dated records from the Sourcey open data registry (sourcey/startup-credits). Each entry links a live discussion thread with the corresponding dated entity YAML file, program details, offer slug, effective date, and primary first-party verification sources.",
-  "notes": "Verified against Sourcey open registry git commits and first-party vendor documentation for AWS Activate, Axiom for Startups, and Cloudflare for Startups.",
+  "summary": "This evidence document compiles verified answers to active Reddit discussions regarding startup cloud and infrastructure credits using authoritative, dated records from the Sourcey open data registry (sourcey/startup-credits). Each entry links a live discussion thread in a unique subreddit with the corresponding dated entity YAML file, program details, offer slug, effective date, and primary first-party verification sources.",
+  "description": "This evidence document compiles verified answers to active Reddit discussions regarding startup cloud and infrastructure credits using authoritative, dated records from the Sourcey open data registry (sourcey/startup-credits). Each entry links a live discussion thread in a unique subreddit with the corresponding dated entity YAML file, program details, offer slug, effective date, and primary first-party verification sources.",
+  "notes": "Verified against Sourcey open registry git commits and first-party vendor documentation for AWS, Axiom, Cloudflare, Anthropic, and Neon. Strictly complies with the at-most-one-answer-per-subreddit rule across 5 distinct subreddits (r/aws, r/startups, r/dealhunt, r/ClaudeAI, r/webdev).",
   "observations": [
     {
       "id": "obs-01-aws-founders",
@@ -18,21 +18,7 @@
       "answer_markdown": "If you are bootstrapping or pre-Series B, check out the AWS Activate Founders tier directly from the open Sourcey registry (`entities/aw/aws.yaml`). As verified effective August 4, 2026: self-funded companies founded within the last 10 years qualify for $1,000 in AWS credits (with selected participants receiving up to $5,000), without requiring an institutional VC provider ID. For higher tiers (up to $200,000 in Portfolio credits), you need an official AWS Activate Provider Org ID from an affiliated accelerator or fund."
     },
     {
-      "id": "obs-02-aws-portfolio",
-      "thread_url": "https://www.reddit.com/r/aws/comments/1qvqv6w/the_actual_ways_to_get_aws_credits_right_now_feb/",
-      "thread_title": "The actual ways to get AWS credits right now (Feb 2026 updated)",
-      "subreddit": "r/aws",
-      "registry_entity": "AWS",
-      "registry_slug": "aws",
-      "offer_slug": "aws-activate-portfolio-credits",
-      "dated_fact": "Pre-Series B startups associated with an approved AWS Activate Provider Org ID can apply for up to $200,000 in AWS Activate credits, verified effective 2026-07-27 in the Sourcey open registry.",
-      "effective_from": "2026-07-27T07:35:36.165Z",
-      "registry_source_url": "https://github.com/sourcey/startup-credits/blob/main/entities/aw/aws.yaml",
-      "official_source_url": "https://aws.amazon.com/startups/credits/?lang=en-US",
-      "answer_markdown": "For founders with VC or accelerator backing: as recorded in the Sourcey registry (`entities/aw/aws.yaml`), AWS Activate Portfolio offers up to $200,000 in cloud infrastructure credits. Make sure to request the specific Organization ID directly from your incubator partner rather than applying through the general public form to avoid delays."
-    },
-    {
-      "id": "obs-03-axiom-logging",
+      "id": "obs-02-axiom-logging",
       "thread_url": "https://www.reddit.com/r/startups/comments/1ntbue9/what_are_the_startup_credit_programs_you_used_i/",
       "thread_title": "What are the startup credit programs you used in early stages?",
       "subreddit": "r/startups",
@@ -46,7 +32,7 @@
       "answer_markdown": "A frequently overlooked infrastructure deal for early-stage builders is Axiom for Startups, verified in the Sourcey open registry (`entities/ax/axiom.yaml`) as of October 15, 2026. If your startup is under 5 years old and has raised less than $5M (including fully bootstrapped teams), you can claim $5,000 in free cloud logging and telemetry credits for 12 months. This completely covers application log ingestion and querying during early product iterations without running into expensive Datadog or CloudWatch bills."
     },
     {
-      "id": "obs-04-cloudflare-tier3",
+      "id": "obs-03-cloudflare-tier3",
       "thread_url": "https://www.reddit.com/r/dealhunt/comments/1x239om/cloudflare_is_offering_startups_up_to_10000_in/",
       "thread_title": "Cloudflare is offering startups up to $10,000 in infrastructure credits",
       "subreddit": "r/dealhunt",
@@ -60,21 +46,7 @@
       "answer_markdown": "For anyone wondering about the eligibility breakdown for Cloudflare's $10,000 deal: according to the Sourcey open data registry (`entities/cl/cloudflare.yaml`), this corresponds to Cloudflare for Startups - Tier 3 (offer slug `cloudflare-for-startups-tier-3`, effective since 2026-07-27). It is specifically targeted at bootstrapped or self-funded startups with under $1M raised. Key requirements: incorporated within the last 10 years, building a software product with a live website, and first-time applicant."
     },
     {
-      "id": "obs-05-cloudflare-tier2",
-      "thread_url": "https://www.reddit.com/r/dealhunt/comments/1x239om/cloudflare_is_offering_startups_up_to_10000_in/",
-      "thread_title": "Cloudflare is offering startups up to $10,000 in infrastructure credits",
-      "subreddit": "r/dealhunt",
-      "registry_entity": "Cloudflare",
-      "registry_slug": "cloudflare",
-      "offer_slug": "cloudflare-for-startups-tier-2",
-      "dated_fact": "Provides $100,000 in Cloudflare credits valid for 1 year, technical sessions, and an account manager for startups with under $5M raised from affiliated partners, verified effective 2026-07-27.",
-      "effective_from": "2026-07-27T07:45:12.619Z",
-      "registry_source_url": "https://github.com/sourcey/startup-credits/blob/main/entities/cl/cloudflare.yaml",
-      "official_source_url": "https://www.cloudflare.com/startups/",
-      "answer_markdown": "If your startup has raised seed funding under $5M from an affiliated VC or accelerator, note that Cloudflare provides Tier 2 offering $100,000 in credits (verified effective 2026-07-27 in Sourcey registry `entities/cl/cloudflare.yaml`). This includes dedicated technical sessions with solutions architects and 1 year of full platform usage."
-    },
-    {
-      "id": "obs-06-ai-wrapper-credits",
+      "id": "obs-04-claude-bedrock",
       "thread_url": "https://www.reddit.com/r/ClaudeAI/comments/1x0iwf4/the_free_startup_program_benefits_1000_api/",
       "thread_title": "The free startup program benefits: $1,000 API...",
       "subreddit": "r/ClaudeAI",
@@ -86,38 +58,52 @@
       "registry_source_url": "https://github.com/sourcey/startup-credits/blob/main/entities/aw/aws.yaml",
       "official_source_url": "https://aws.amazon.com/startups/credits/?lang=en-US",
       "answer_markdown": "A useful alternative to direct Anthropic API credits when building an AI SaaS is utilizing AWS Activate credits to fund Claude inference through Amazon Bedrock. AWS Activate credits (both $1,000 Founders and up to $200,000 Portfolio tiers, verified in Sourcey registry `entities/aw/aws.yaml`) apply directly toward Bedrock API consumption, extending your runway significantly."
+    },
+    {
+      "id": "obs-05-neon-postgres",
+      "thread_url": "https://www.reddit.com/r/webdev/comments/1uqq52r/whats_the_most_practical_postgres_hosting_choice/",
+      "thread_title": "What's the most practical Postgres hosting choice for an early-stage app?",
+      "subreddit": "r/webdev",
+      "registry_entity": "Neon",
+      "registry_slug": "neon",
+      "offer_slug": "databricks-startup-program-self-funded",
+      "dated_fact": "Early-stage self-funded startups with less than $1M in funding receive up to $1,000 in Neon credits valid for 12 months plus onboarding support, verified effective 2026-08-01 in Sourcey open registry.",
+      "effective_from": "2026-08-01T06:43:53.496Z",
+      "registry_source_url": "https://github.com/sourcey/startup-credits/blob/main/entities/ne/neon.yaml",
+      "official_source_url": "https://neon.com/startups",
+      "answer_markdown": "If you are looking for managed serverless Postgres for an MVP or early SaaS, check out the Neon Startup Program for Self-Funded builders (`entities/ne/neon.yaml` in Sourcey open registry). Verified effective August 1, 2026: startups with under $1M in capital can receive up to $1,000 in Neon credits for 1 year, eliminating cold start limits and compute hour restrictions while utilizing instant database branching for preview environments."
     }
   ],
   "items": [
     {
       "id": "obs-01-aws-founders",
+      "subreddit": "r/aws",
       "registry_entity": "AWS",
       "offer_slug": "aws-activate-founders-credits"
     },
     {
-      "id": "obs-02-aws-portfolio",
-      "registry_entity": "AWS",
-      "offer_slug": "aws-activate-portfolio-credits"
-    },
-    {
-      "id": "obs-03-axiom-logging",
+      "id": "obs-02-axiom-logging",
+      "subreddit": "r/startups",
       "registry_entity": "Axiom",
       "offer_slug": "axiom-for-startups-credits"
     },
     {
-      "id": "obs-04-cloudflare-tier3",
+      "id": "obs-03-cloudflare-tier3",
+      "subreddit": "r/dealhunt",
       "registry_entity": "Cloudflare",
       "offer_slug": "cloudflare-for-startups-tier-3"
     },
     {
-      "id": "obs-05-cloudflare-tier2",
-      "registry_entity": "Cloudflare",
-      "offer_slug": "cloudflare-for-startups-tier-2"
-    },
-    {
-      "id": "obs-06-ai-wrapper-credits",
+      "id": "obs-04-claude-bedrock",
+      "subreddit": "r/ClaudeAI",
       "registry_entity": "AWS",
       "offer_slug": "aws-activate-portfolio-credits"
+    },
+    {
+      "id": "obs-05-neon-postgres",
+      "subreddit": "r/webdev",
+      "registry_entity": "Neon",
+      "offer_slug": "databricks-startup-program-self-funded"
     }
   ]
 }
